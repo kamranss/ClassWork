@@ -1,5 +1,6 @@
 ﻿using System;
 
+
 namespace ConsoleApp1
 {
     class Program
@@ -10,9 +11,10 @@ namespace ConsoleApp1
 
             //Console.WriteLine(sumArrIndex(new string[] { "gfg"}));
             //Console.WriteLine(Number(76));
-            //Console.WriteLine(NumberFactorial(40));
+            //Console.WriteLine(NumberFactorial(40))
+            //Console.WriteLine(RevertString("salam"));
+            Console.WriteLine(RevertStringWords("salam necesen"));
 
-            Console.WriteLine(RevertString("salam"));
 
         }
         #region Method
@@ -40,8 +42,6 @@ namespace ConsoleApp1
             }
             return m;
         }
-
-
         static string RevertString( string m)
         {
             string n = "";
@@ -53,6 +53,33 @@ namespace ConsoleApp1
             return n;
 
         }
+        static string RevertStringWords(string m)
+        {
+           
+            string[] arr = m.Split(" ");
+            string a = "";
+            string b = "";
+            for (int i = 0; i <= arr.Length-1; i++)
+            {
+                a = arr[i];
+                if (a== arr[arr.Length-1])
+                {
+                    a = arr[i] + " ";
+                }
+                for (int j = a.Length-1; j >=0; j--)
+                {
+                    b += a[j];
+                }
+
+               
+
+            }
+            return b;
+           
+
+        }
+
+
         #endregion
     }
 }
