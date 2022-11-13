@@ -27,7 +27,10 @@ namespace ConsoleApp2
         public string FullInfo()
         {
             return $"{Name} {Surname} {Phonenumber} {Category} {Note}";
+            
         }
+
+
             
             
             
