@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ConsoleApp2
 {
-    class Person
+    class Person:Common
     {
         public string Name;
         public string Surname;
@@ -26,7 +26,7 @@ namespace ConsoleApp2
         }
         public string FullInfo()
         {
-            return $"{Name} {Surname} {Phonenumber} {Category} {Note}";
+            return $"{Name} {Surname} {Phonenumber} {Category} {Note} {EmailAddress}";
             
         }
 

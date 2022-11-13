@@ -15,6 +15,7 @@ namespace ConsoleApp2
             per2.Surname = "Agayev";
             per2.Phonenumber = "+546465467486";
             per2.Category = "frontEndDev";
+            per2.EmailAddress = "kamilagayev@gmail.com";
             
 
             Console.WriteLine(per2.FullInfo());
