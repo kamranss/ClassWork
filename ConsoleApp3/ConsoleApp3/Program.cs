@@ -6,18 +6,7 @@ namespace ConsoleApp3
     {
         static void Main(string[] args)
         {
-            int a = 4;
-            int b = 7;
-
-            a = a + b;
-            b = a - b;
-            a = a - b;
             
-
-            
-
-            Console.WriteLine(a);
-            Console.WriteLine(b);
           
 
 
