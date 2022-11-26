@@ -17,6 +17,13 @@ namespace ConsoleApp2
             //Car car1 = new Car();
             //car1.Model = "djsdkjs";
 
+            //int num = 3;
+            //Console.WriteLine(num.CheckFactorial());
+
+            string a = "ldeojejoaaa|";
+            Console.WriteLine(a.Checkstr("a"));
+
+
 
 
         }

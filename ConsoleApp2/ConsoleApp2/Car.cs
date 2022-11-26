@@ -17,7 +17,7 @@ namespace ConsoleApp2
         public Car( string brand, string model, string type)
         {
             Type = type;
-            Brend = brand;
+            _brend = brand;
             Model = model;
         }
 
